@@ -218,14 +218,25 @@ a {
 }
 
 /* experience */
-.experience a {
+.experience .btn-experience {
+  background-color: #092635;
+  color: #9ec8b9;
+  font-weight: bolder;
+  padding: 5px 20px 5px 20px;
+}
+
+.experience .btn-experience:hover {
+  background-color: #092635;
+  color: #9ec8b9;
+}
+.experience .btn-selengkapnya {
   border: solid 2px #092635;
   color: #092635;
   font-weight: bolder;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 20px 5px 20px;
 }
 
-.experience a:hover {
+.experience .btn-selengkapnya:hover {
   background-color: #092635;
   color: #9ec8b9;
 }
@@ -331,6 +342,10 @@ li {
   color: #092635;
 }
 
+.experience span {
+  background-color: #9ec8b9;
+  color: #092635;
+}
 /* rsponsive */
 @media (max-width: 992px) {
   /* work experience */
@@ -343,10 +358,11 @@ li {
 
   /* organisation experience */
   .experience .pengalaman-organisasi {
-    padding: 0px 100px 0px 50px;
+    padding: 0px 60px 0px 50px;
   }
   .experience .pengalaman-organisasi .deskripsi-pengalaman-organisasi {
-    padding: 50px 50px 50px 50px;
+    padding-right: 0px;
+    padding: 50px 40px 50px 50px;
   }
 
   /* pelatihan dan sertifikasi */
@@ -355,6 +371,9 @@ li {
   }
   .experience .pengalaman-pelatihan .deskripsi-pelatihan {
     padding: 50px 50px 50px 50px;
+  }
+  #more {
+    display: none;
   }
 }
 
@@ -369,7 +388,7 @@ li {
 
   /* organisation experience */
   .experience .pengalaman-organisasi {
-    padding: 0px 100px 0px 50px;
+    padding: 0px 60px 0px 50px;
   }
   .experience .pengalaman-organisasi .deskripsi-pengalaman-organisasi {
     padding: 50px 40px 50px 0px;
@@ -381,6 +400,26 @@ li {
   }
   .experience .pengalaman-pelatihan .deskripsi-pelatihan {
     padding: 50px 0px 50px 40px;
+  }
+
+  /* font size */
+  .experience .h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .experience .h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .experience .h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .experience .p,
+  span {
+    font-size: 12px;
+    margin-bottom: 10px;
   }
 }
 
