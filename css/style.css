@@ -1,0 +1,269 @@
+* {
+  font-family: poppins;
+  background-color: #092635;
+  color: #9ec8b9;
+}
+
+/* navbar */
+.navbar .container-fluid {
+  margin-top: 40px;
+}
+.navbar .container-fluid .navbar-brand {
+  color: #9ec8b9;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav {
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-link {
+  color: #9ec8b9;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-right: 25px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .btn {
+  background-color: none;
+  color: #9ec8b9;
+  border: solid 2px #9ec8b9;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .btn:hover {
+  background-color: #9ec8b9;
+  color: #092635;
+}
+
+/* carousel */
+.carousel {
+  padding: 50px 50px 100px 230px;
+}
+.carousel .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel .container-fluid .deskripsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: first baseline;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.carousel .container-fluid .deskripsi div,
+a {
+  margin-bottom: 30px;
+}
+
+.carousel .container-fluid .deskripsi .btn {
+  background-color: #9ec8b9;
+  color: #092635;
+  border-color: #9ec8b9;
+  font-weight: bolder;
+}
+
+/* about */
+.about {
+  padding: 50px 200px 50px 200px;
+}
+.about .container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about .container-fluid div {
+  margin-bottom: 30px;
+}
+
+/* icon about */
+.icon-about {
+  padding-bottom: 50px;
+}
+.icon-about .container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.icon-about .container .row {
+  background-color: #9ec8b9;
+  border-radius: 30px;
+}
+
+.icon-about .container .row .col {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #9ec8b9;
+}
+.icon-about .container .row .col img {
+  max-width: 40%;
+  color: #9ec8b9;
+  background-color: #9ec8b9;
+  margin-bottom: 30px;
+}
+
+.icon-about .container .row .col div {
+  background-color: #9ec8b9;
+  color: #092635;
+}
+
+.icon-about .container .row .col div .h5 {
+  font-weight: bolder;
+}
+
+.icon-about .container .row .satu {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.icon-about .container .row .tiga {
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/* experience */
+.experience a {
+  border: solid 2px #092635;
+  color: #092635;
+  font-weight: bolder;
+  padding: 5px 30px 5px 30px;
+}
+
+.experience a:hover {
+  background-color: #092635;
+  color: #9ec8b9;
+}
+/* pengalaman kerja */
+.experience .experience-mhi {
+  background-color: #9ec8b9;
+  color: #092635;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 50px 100px;
+}
+
+.experience .experience-mhi .img-mhi {
+  max-width: 30%;
+  max-height: 30%;
+  background-color: #9ec8b9;
+}
+
+.experience .experience-mhi .deskripsi-experience {
+  padding-right: 400px;
+  background-color: #9ec8b9;
+  padding: 100px 130px 50px 180px;
+}
+
+.experience .experience-mhi .deskripsi-experience div,
+p {
+  background-color: #9ec8b9;
+  color: #092635;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* pengalaman organisasi */
+.experience .pengalaman-organisasi {
+  background-color: #9ec8b9;
+  color: #092635;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px 50px 100px;
+}
+
+.experience .pengalaman-organisasi .img-palatika {
+  max-width: 30%;
+  max-height: 30%;
+  background-color: #9ec8b9;
+}
+
+.experience .pengalaman-organisasi .deskripsi-pengalaman-organisasi {
+  padding-right: 400px;
+  background-color: #9ec8b9;
+  padding: 100px 250px 50px 50px;
+}
+
+.experience .pengalaman-organisasi .deskripsi-pengalaman-organisasi div,
+p {
+  background-color: #9ec8b9;
+  color: #092635;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* pengalaman pelatihan */
+.experience .pengalaman-pelatihan {
+  background-color: #9ec8b9;
+  color: #092635;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 50px 100px;
+}
+
+.experience .pengalaman-pelatihan .img-sertifikat {
+  max-width: 30%;
+  max-height: 30%;
+  background-color: #9ec8b9;
+}
+
+.experience .pengalaman-pelatihan .deskripsi-pelatihan {
+  padding-right: 400px;
+  background-color: #9ec8b9;
+  padding: 100px 130px 50px 180px;
+}
+
+.experience .pengalaman-pelatihan .deskripsi-pelatihan div,
+p {
+  background-color: #9ec8b9;
+  color: #092635;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.experience .pengalaman-pelatihan .deskripsi-pelatihan .h2 {
+  text-align: start;
+}
+
+.experience .pengalaman-pelatihan .deskripsi-pelatihan div,
+p,
+ul,
+li {
+  background-color: #9ec8b9;
+  color: #092635;
+}
+
+/* footer */
+.footer {
+  padding: 50px 150px 50px 150px;
+}
+.footer .footer-con {
+  padding-bottom: 40px;
+  border-bottom: solid 1px #9ec8b9;
+}
+.footer .footer-con .row .col .sosmed {
+  display: flex;
+  justify-content: end;
+}
+.footer .footer-con .row .col .sosmed img {
+  max-width: 5%;
+  max-height: 5%;
+  margin-left: 20px;
+}
+.footer .copyright {
+  padding-top: 40px;
+}
