@@ -101,6 +101,21 @@ a {
   font-weight: bolder;
 }
 /* responsive carousel */
+@media (max-width: 992px) {
+  .carousel .container-fluid {
+    flex-direction: column;
+  }
+  .carousel {
+    padding: 50px 50px 50px 50px;
+  }
+  .carousel .container-fluid .deskripsi {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /* about */
 .about {
