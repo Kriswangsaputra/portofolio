@@ -116,6 +116,14 @@ a {
     align-items: center;
   }
 }
+@media (max-width: 600px) {
+  .carousel .container-fluid img {
+    max-width: 50%;
+  }
+  .carousel .container-fluid .deskripsi .h1 {
+    font-size: 24px;
+  }
+}
 
 /* about */
 .about {
@@ -131,6 +139,13 @@ a {
 
 .about .container-fluid div {
   margin-bottom: 30px;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+  .about {
+    padding: 50px 50px 50px 50px;
+  }
 }
 
 /* icon about */
@@ -182,6 +197,20 @@ a {
   .icon-about .container {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .icon-about .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .icon-about .container .row .col .h5 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .icon-about .container .row .col .p {
+    font-size: 12px;
   }
 }
 
