@@ -54,6 +54,19 @@
     padding-left: 100px;
   }
 }
+
+@media (max-width: 600px) {
+  .navbar .container-fluid .navbar-brand {
+    margin-left: 50px;
+  }
+  .navbar .container-fluid button {
+    margin-right: 50px;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav {
+    padding-left: 50px;
+  }
+}
+
 /* carousel */
 .carousel {
   padding: 50px 50px 100px 230px;
@@ -84,6 +97,7 @@ a {
   border-color: #9ec8b9;
   font-weight: bolder;
 }
+/* responsive carousel */
 
 /* about */
 .about {
