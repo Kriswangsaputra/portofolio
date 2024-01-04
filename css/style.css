@@ -332,11 +332,6 @@ li {
 @media (max-width: 992px) {
   /* work experience */
   .experience .experience-mhi {
-    background-color: #9ec8b9;
-    color: #092635;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 50px 0px 50px;
   }
   .experience .experience-mhi .deskripsi-experience {
@@ -345,11 +340,6 @@ li {
 
   /* organisation experience */
   .experience .pengalaman-organisasi {
-    background-color: #9ec8b9;
-    color: #092635;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 100px 0px 50px;
   }
   .experience .pengalaman-organisasi .deskripsi-pengalaman-organisasi {
@@ -358,15 +348,36 @@ li {
 
   /* pelatihan dan sertifikasi */
   .experience .pengalaman-pelatihan {
-    background-color: #9ec8b9;
-    color: #092635;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 50px 0px 50px;
   }
   .experience .pengalaman-pelatihan .deskripsi-pelatihan {
     padding: 50px 50px 50px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* work experience */
+  .experience .experience-mhi {
+    padding: 0px 50px 0px 50px;
+  }
+  .experience .experience-mhi .deskripsi-experience {
+    padding: 50px 0px 50px 40px;
+  }
+
+  /* organisation experience */
+  .experience .pengalaman-organisasi {
+    padding: 0px 100px 0px 50px;
+  }
+  .experience .pengalaman-organisasi .deskripsi-pengalaman-organisasi {
+    padding: 50px 40px 50px 0px;
+  }
+
+  /* pelatihan dan sertifikasi */
+  .experience .pengalaman-pelatihan {
+    padding: 0px 50px 0px 50px;
+  }
+  .experience .pengalaman-pelatihan .deskripsi-pelatihan {
+    padding: 50px 0px 50px 40px;
   }
 }
 
