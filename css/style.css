@@ -41,6 +41,19 @@
   color: #092635;
 }
 
+/* responsive navbar */
+@media (max-width: 990px) {
+  .navbar .container-fluid button {
+    margin-right: 100px;
+    background-color: #9ec8b9;
+  }
+  .navbar .container-fluid button span {
+    background-color: #9ec8b9;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav {
+    padding-left: 100px;
+  }
+}
 /* carousel */
 .carousel {
   padding: 50px 50px 100px 230px;
