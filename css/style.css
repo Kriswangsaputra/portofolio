@@ -53,6 +53,9 @@
   .navbar .container-fluid .navbar-collapse .navbar-nav {
     padding-left: 100px;
   }
+  .navbar .container-fluid .navbar-brand {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 600px) {
