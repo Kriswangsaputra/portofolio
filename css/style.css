@@ -68,6 +68,9 @@
   .navbar .container-fluid .navbar-collapse .navbar-nav {
     padding-left: 50px;
   }
+  .navbar .container-fluid {
+    margin-top: 0px;
+  }
 }
 
 /* carousel */
