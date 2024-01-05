@@ -421,6 +421,15 @@ li {
     font-size: 12px;
     margin-bottom: 10px;
   }
+
+  .experience .btn-experience {
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+  }
+  .experience .btn-selengkapnya {
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+  }
 }
 
 /* footer */
