@@ -465,4 +465,10 @@ li {
     max-width: 10%;
     max-height: 10%;
   }
+  .footer .footer-con .row .col .footer-brand {
+    font-size: 14px;
+  }
+  .footer .copyright .p {
+    font-size: 10px;
+  }
 }
