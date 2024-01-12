@@ -71,6 +71,9 @@
   .navbar .container-fluid {
     margin-top: 0px;
   }
+  .navbar .container-fluid .navbar-brand button {
+    padding: 0px;
+  }
 }
 
 /* carousel */

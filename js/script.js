@@ -1,12 +1,7 @@
-function sidebarButton() {
-  var sidebarButton = document.getElementById("button-togle");
-  var menu = document.getElementById("togle");
+AOS.init();
+const animasi = document.querySelectorAll(".about");
 
-  sidebarButton.addEventListener("click", function () {
-    if (menu.style.display === "none" || menu.style.display === "") {
-      menu.style.display = "flex";
-    } else {
-      menu.style.display = "none";
-    }
-  });
-}
+animasi.forEach((animasinya,i) => {
+  animasinya.dataset.aos = "fade-up";
+  animasinya.dataset.aosOnce = "true";
+});
